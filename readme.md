@@ -115,4 +115,14 @@ Deleting and editing a comment, can only be done if the current user and author 
 ![Delete Comment](https://github.com/LynyrdRoss/ALQUIROZ-Project-WebApp-Laravel/blob/master/13.png "Delete Comment")
 
 
+
+
+### *"/posts?month={month}&year={year}"*
+Showing posts by group of year and month
+
+![Archives Section](https://github.com/LynyrdRoss/ALQUIROZ-Project-WebApp-Laravel/blob/master/18.png "Archives Section")
+
+![Archive code](https://github.com/LynyrdRoss/ALQUIROZ-Project-WebApp-Laravel/blob/master/17.png "Archive code")
+
+
 > **_FIN_**
