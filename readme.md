@@ -24,9 +24,13 @@ Home page. Can be visited by guest and logged-in user.
 
 
 ### *"/posts/{id}"*
-View posts individually, this can be seen by both guest and logged-in user.
++ View posts individually, this can be seen by both guest and logged-in user.
 
 ![Show solo posts](https://github.com/LynyrdRoss/ALQUIROZ-Project-WebApp-Laravel/blob/master/8.png "Show solo posts")
+
++ If currently logged in user match with the author of the current post, current user can edit or delete the post.
+
+![User and Author match](https://github.com/LynyrdRoss/ALQUIROZ-Project-WebApp-Laravel/blob/master/9.png "User and Author match")
 
 
 
