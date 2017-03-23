@@ -6,7 +6,7 @@
 
 
 # Le iStorya
-## *The Story*
+### *The Story*
 ----------
 
 > **Supported with:**
@@ -14,13 +14,19 @@
 * BootFlat
 * Basic JavaScript
 
+
 ### *"/posts"*
 Home page.
+Can be visited by guest and logged-in user
 
 ![Posts Home Page](https://github.com/LynyrdRoss/ALQUIROZ-Project-WebApp-Laravel/blob/master/1.png "Posts Home Page")
 
-**Showing by Type**
-*"/pets/{type}"*
+
+### *"/register-user"*
+Registration page
++ Interface
+
+![Registration Page](https://github.com/LynyrdRoss/ALQUIROZ-Project-WebApp-Laravel/blob/master/2.png "Registration Page")
 
 ### *"/pets/dog"*
 
