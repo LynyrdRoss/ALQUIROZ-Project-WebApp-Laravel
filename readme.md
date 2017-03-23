@@ -25,6 +25,9 @@ Home page. Can be visited by guest and logged-in user.
 
 ### *"/posts/{id}"*
 + View posts individually, this can be seen by both guest and logged-in user.
++ All logged in user can make a post and comment.
++ *__NOTE:__ If a guest tries to make a post or comment, he will be redirected back to __(/login-user)__ page as middleware.*
+
 
 ![Show solo posts](https://github.com/LynyrdRoss/ALQUIROZ-Project-WebApp-Laravel/blob/master/8.png "Show solo posts")
 
