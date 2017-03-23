@@ -16,8 +16,8 @@
 
 
 ### *"/posts"*
-Home page.
-Can be visited by guest and logged-in user
+Home page. Can be visited by guest and logged-in user.
+*(Viewing as guest)*
 
 ![Posts Home Page](https://github.com/LynyrdRoss/ALQUIROZ-Project-WebApp-Laravel/blob/master/1.png "Posts Home Page")
 
@@ -28,21 +28,13 @@ Registration page
 
 ![Registration Page](https://github.com/LynyrdRoss/ALQUIROZ-Project-WebApp-Laravel/blob/master/2.png "Registration Page")
 
-### *"/pets/dog"*
++ Validation via browser side and server side supported
 
-![Dog Page](https://github.com/LynyrdRoss/ALQUIROZ-Assignment/blob/master/2.png "Dog Page")
+![Registration Page validation](https://github.com/LynyrdRoss/ALQUIROZ-Project-WebApp-Laravel/blob/master/3.png "Registration Page validation")
 
-### *"/pets/bird"*
++ Upon Successfull Registration, user will be redirected to the home page *(/posts)* and a 3 - seconds confirmation flash message will appear.
 
-![Bird Page](https://github.com/LynyrdRoss/ALQUIROZ-Assignment/blob/master/3.png "Bird Page")
-
-
-**Adding new pets**
-
-### *"/add-pet"*
-Contains a drop down of collections of Dog, Cat and Bird.
-
-![Add Pet Form](https://github.com/LynyrdRoss/ALQUIROZ-Assignment/blob/master/4.png "Add Pet Form")
+![Registration success with flash message](https://github.com/LynyrdRoss/ALQUIROZ-Project-WebApp-Laravel/blob/master/4.png "Registration success with flash message")
 
 
 > **_FIN_**
