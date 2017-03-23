@@ -95,7 +95,9 @@ Log-in page
 
 
 ### *"posts/comment/{id}"*
-Deleting a comment, can only be done if the current user and author of the comment match as middleware.
+Deleting and editing a comment, can only be done if the current user and author of the comment match as middleware.
+
+![Validate user](https://github.com/LynyrdRoss/ALQUIROZ-Project-WebApp-Laravel/blob/master/14.png "Validate user")
 
 ![Delete Comment](https://github.com/LynyrdRoss/ALQUIROZ-Project-WebApp-Laravel/blob/master/13.png "Delete Comment")
 
