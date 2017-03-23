@@ -23,6 +23,7 @@ Home page. Can be visited by guest and logged-in user.
 
 
 
+
 ### *"/posts/{id}"*
 + View posts individually, this can be seen by both guest and logged-in user.
 + All logged in user can make a post and comment.
@@ -34,6 +35,11 @@ Home page. Can be visited by guest and logged-in user.
 + If currently logged in user match with the author of the current post, current user can edit or delete the post.
 
 ![User and Author match](https://github.com/LynyrdRoss/ALQUIROZ-Project-WebApp-Laravel/blob/master/9.png "User and Author match")
+
+* If currently logged in user match with the author of the current post, current user can edit or delete his comment.
+
+![Comment match feature](https://github.com/LynyrdRoss/ALQUIROZ-Project-WebApp-Laravel/blob/master/12.png "Comment match feature")
+
 
 
 
@@ -55,6 +61,7 @@ Registration page
 
 
 
+
 ### *"/login-user"*
 Log-in page
 + Interface.
@@ -70,6 +77,7 @@ Log-in page
 ![Login success with flash message](https://github.com/LynyrdRoss/ALQUIROZ-Project-WebApp-Laravel/blob/master/7.png "Login success with flash message")
 
 *__NOTE:__ If a logged-in user visits __(/login-user)__ page, he will be redirected to the __(/posts)__ page as middleware.*
+
 
 
 
