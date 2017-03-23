@@ -99,6 +99,10 @@ Deleting and editing a comment, can only be done if the current user and author 
 
 ![Validate user](https://github.com/LynyrdRoss/ALQUIROZ-Project-WebApp-Laravel/blob/master/14.png "Validate user")
 
+*EDIT and SAVE function*
+![Validate user](https://github.com/LynyrdRoss/ALQUIROZ-Project-WebApp-Laravel/blob/master/15.png "Validate user")
+
+*Delete function*
 ![Delete Comment](https://github.com/LynyrdRoss/ALQUIROZ-Project-WebApp-Laravel/blob/master/13.png "Delete Comment")
 
 
