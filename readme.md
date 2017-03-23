@@ -22,13 +22,14 @@ Home page. Can be visited by guest and logged-in user.
 ![Posts Home Page](https://github.com/LynyrdRoss/ALQUIROZ-Project-WebApp-Laravel/blob/master/1.png "Posts Home Page")
 
 
+
 ### *"/register-user"*
 Registration page
 + Interface
 
 ![Registration Page](https://github.com/LynyrdRoss/ALQUIROZ-Project-WebApp-Laravel/blob/master/2.png "Registration Page")
 
-+ Validation via browser side and server side supported
++ Validation via browser side and server side supported.
 
 ![Registration Page validation](https://github.com/LynyrdRoss/ALQUIROZ-Project-WebApp-Laravel/blob/master/3.png "Registration Page validation")
 
@@ -36,5 +37,22 @@ Registration page
 
 ![Registration success with flash message](https://github.com/LynyrdRoss/ALQUIROZ-Project-WebApp-Laravel/blob/master/4.png "Registration success with flash message")
 
+*__NOTE:__ If a logged-in user visits __(/register-user)__ page, he will be redirected to the __(/posts)__ page as middleware.*
+
+
+
+### *"/login-user"*
+Log-in page
++ Interface
+
+![Log-in page](https://github.com/LynyrdRoss/ALQUIROZ-Project-WebApp-Laravel/blob/master/5.png "Log-in page")
+
++ Supports validation
+
+![Log-in page validation](https://github.com/LynyrdRoss/ALQUIROZ-Project-WebApp-Laravel/blob/master/6.png "Log-in page validation")
+
++ After signing-in successfully, user will be redirected to the home page *(/posts)* and a 3 - seconds confirmation flash message will appear.
+
+![Login success with flash message](https://github.com/LynyrdRoss/ALQUIROZ-Project-WebApp-Laravel/blob/master/7.png "Login success with flash message")
 
 > **_FIN_**
