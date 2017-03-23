@@ -10,14 +10,14 @@
 ----------
 
 > **Supported with:**
-..* Bootstrap
-..* BootFlat
-..* Basic JavaScript
+* Bootstrap
+* BootFlat
+* Basic JavaScript
 
 ### *"/posts"*
 Home page.
 
-![Posts Home Page](https://github.com/LynyrdRoss/ALQUIROZ-Assignment/blob/master/1.png "Posts Home Page")
+![Posts Home Page](https://github.com/LynyrdRoss/ALQUIROZ-Project-WebApp-Laravel/blob/master/1.png "Posts Home Page")
 
 **Showing by Type**
 *"/pets/{type}"*
