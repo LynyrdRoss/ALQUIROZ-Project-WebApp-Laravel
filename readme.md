@@ -23,9 +23,16 @@ Home page. Can be visited by guest and logged-in user.
 
 
 
+### *"/posts/{id}"*
+View posts individually, this can be seen by both guest and logged-in user.
+
+![Show solo posts](https://github.com/LynyrdRoss/ALQUIROZ-Project-WebApp-Laravel/blob/master/8.png "Show solo posts")
+
+
+
 ### *"/register-user"*
 Registration page
-+ Interface
++ Interface.
 
 ![Registration Page](https://github.com/LynyrdRoss/ALQUIROZ-Project-WebApp-Laravel/blob/master/2.png "Registration Page")
 
@@ -54,5 +61,12 @@ Log-in page
 + After signing-in successfully, user will be redirected to the home page *(/posts)* and a 3 - seconds confirmation flash message will appear.
 
 ![Login success with flash message](https://github.com/LynyrdRoss/ALQUIROZ-Project-WebApp-Laravel/blob/master/7.png "Login success with flash message")
+
+*__NOTE:__ If a logged-in user visits __(/login-user)__ page, he will be redirected to the __(/posts)__ page as middleware.*
+
+
+
+
+
 
 > **_FIN_**
