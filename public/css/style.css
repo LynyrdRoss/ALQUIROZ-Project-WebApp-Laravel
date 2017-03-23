@@ -1,0 +1,79 @@
+/* Change the LVCC Daily Blog and News Title */
+
+.title {
+	font-size: 385%; /* 70px */
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	margin: 2%;
+}
+
+.title-caption {
+	font-size: 145%; /* 26px */
+	color: #636b6f;
+	font-family: 'Monotype Corsiva', sans-serif;
+}
+
+.title-link, .title-link:hover {
+	color: inherit;
+}
+
+.comment-time {
+	color: #999;
+	font-size: 70%;
+	position: absolute;
+}
+
+.comment-box {
+	padding-bottom: 5%;
+}
+
+.comment-btn {
+	float: right;
+}
+
+.guest-link-login {
+	padding-left: 53%;
+	position: relative;
+}
+
+.guest-link-register {
+	position: relative;
+}
+
+.post-btn {
+	margin: 0.2%;
+	float: right;
+}
+
+.flash-message {
+	position: fixed;
+	top: 75px;
+	right: 20px;
+	z-index: 10;
+}
+
+.edit-caret {
+	position: absolute;
+	right: 2%;
+	top: 20%;
+}
+
+.caret-list {
+	text-align: center;
+	font-family: arial;
+	color: white;
+}
+
+.caret-tooltip {
+	position: absolute;
+	right: 0;
+	margin-left: 70%;
+	margin-top: -6%;
+	margin-right: 1%;
+}
+
+/* For new line, this is for class */
+.new-line {
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
