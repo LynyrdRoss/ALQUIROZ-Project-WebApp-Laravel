@@ -26,7 +26,7 @@ Home page. Can be visited by guest and logged-in user.
 ### *"/posts/{id}"*
 + View posts individually, this can be seen by both guest and logged-in user.
 + All logged in user can make a post and comment.
-+ *__NOTE:__ If a guest tries to make a post or comment, he will be redirected back to __(/login-user)__ page as middleware.*
++ *__NOTE:__ If a guest tries to make a comment, he will be redirected back to __(/login-user)__ page as middleware.*
 
 
 ![Show solo posts](https://github.com/LynyrdRoss/ALQUIROZ-Project-WebApp-Laravel/blob/master/8.png "Show solo posts")
@@ -57,11 +57,11 @@ Registration page
 
 ### *"/login-user"*
 Log-in page
-+ Interface
++ Interface.
 
 ![Log-in page](https://github.com/LynyrdRoss/ALQUIROZ-Project-WebApp-Laravel/blob/master/5.png "Log-in page")
 
-+ Supports validation
++ Supports validation.
 
 ![Log-in page validation](https://github.com/LynyrdRoss/ALQUIROZ-Project-WebApp-Laravel/blob/master/6.png "Log-in page validation")
 
@@ -73,7 +73,15 @@ Log-in page
 
 
 
+### *"/posts/create"*
++ Create post page. This is only accessible by logged in users.
++ *__NOTE:__ If a guest tries to visit this page, he will be redirected back to __(/login-user)__ page as middleware.*
 
+![Create post page](https://github.com/LynyrdRoss/ALQUIROZ-Project-WebApp-Laravel/blob/master/10.png "Create post page")
+
++ After creating a post, it will provide a 3 - seconds confirmation flash message for the user.
+
+![Create post flash](https://github.com/LynyrdRoss/ALQUIROZ-Project-WebApp-Laravel/blob/master/11.png "Create post flash")
 
 
 > **_FIN_**
