@@ -43,6 +43,15 @@ View posts individually, this can be seen by both guest and logged-in user.
 
 
 
+### *"posts/{id}/edit"*
+Edit Post page. Only logged-in user can access this page.
++ *__NOTE:__ If a guest tries to edit a comment, he will be redirected back to __(/login-user)__ page as middleware.*
+
+![Edit comment](https://github.com/LynyrdRoss/ALQUIROZ-Project-WebApp-Laravel/blob/master/16.png "Edit comment")
+
+
+
+
 ### *"/register-user"*
 Registration page
 + Interface.
